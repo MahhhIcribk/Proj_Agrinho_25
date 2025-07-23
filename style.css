@@ -150,16 +150,8 @@ a:hover {
     text-decoration: underline;
 }
 
-footer img {
+.footer-content .social-links a img {
     width: 40px;
     height: 40px;
+    object-fit: contain; /* Opcional: mantém a proporção da imagem */
 }
-
-.list {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 16px;
-        font-size: 1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;  
-    }
